@@ -10,7 +10,6 @@ import pandas as pd
 browser = mechanicalsoup.Browser()
 
 #scrape a page
-# page = browser.get("https://africavotes.com/p/miss.and.mr.tourism.kigezi.region.2024")
 page = browser.get("https://africavotes.com/p/miss.tourism.westnile.2024")
 
 #fetch names of contestants, all names are contained in the 'u' tag
